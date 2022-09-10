@@ -6,6 +6,11 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { PageWrapperComponent } from './page-wrapper/page-wrapper.component';
 import { MatIconModule } from '@angular/material/icon';
+import { SectionExperienceComponent } from './components/section-experience/section-experience.component';
+import { SectionContactComponent } from './components/section-contact/section-contact.component';
+import { SectionPortfolioComponent } from './components/section-portfolio/section-portfolio.component';
+import { SectionIntroComponent } from './components/section-intro/section-intro.component';
+import { SectionSkillsComponent } from './components/section-skills/section-skills.component';
 
 
 
@@ -13,7 +18,12 @@ import { MatIconModule } from '@angular/material/icon';
   declarations: [
     TopbarComponent,
     SidebarComponent,
-    PageWrapperComponent
+    PageWrapperComponent,
+    SectionExperienceComponent,
+    SectionContactComponent,
+    SectionPortfolioComponent,
+    SectionIntroComponent,
+    SectionSkillsComponent
   ],
   imports: [
     CommonModule,
