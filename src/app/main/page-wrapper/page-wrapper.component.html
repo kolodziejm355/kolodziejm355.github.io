@@ -1,0 +1,13 @@
+
+<app-topbar (menuToggle)="drawer.toggle()"></app-topbar>
+
+<mat-drawer-container class="container">
+    <mat-drawer #drawer class="sidebar-container" mode="side">
+        <app-sidebar></app-sidebar>
+    </mat-drawer>
+
+  
+    <ng-content></ng-content>
+
+</mat-drawer-container>
+
